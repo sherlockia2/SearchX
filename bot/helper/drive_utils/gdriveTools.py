@@ -158,7 +158,7 @@ class GoogleDriveHelper:
                 for file in response:
 
                     if add_title_msg == True:
-                        msg = f'<h3>Results for: {fileName}</h3><br>'
+                        msg = f'<h3>Results for: {fileName}</h3>'
                         add_title_msg = False
                     if add_drive_title == True:
                         msg += f"<br><b>{DRIVE_NAME[INDEX]}</b><br><br>"
