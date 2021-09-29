@@ -158,7 +158,7 @@ class GoogleDriveHelper:
                 for file in response:
 
                     if add_title_msg == True:
-                        msg = f'<h3>I found these results for your search query: {fileName}</h3><br><b><a href="https://github.com/iamLiquidX/SearchX"> Bot Repo </a></b>'
+                        msg = f'<h3>Results for: {fileName}</h3><br><b>'
                         add_title_msg = False
                     if add_drive_title == True:
                         msg += f"<br><b>{DRIVE_NAME[INDEX]}</b><br><br>"
